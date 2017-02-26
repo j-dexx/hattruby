@@ -2,17 +2,20 @@ require_relative '../test_helper'
 
 class ClubTest < Minitest::Test
   def test_club
-    stub_get.with(query: { file: 'club', version: 1.5 }).to_return(body: fixture('club.xml'))
+    body = 'Club'
+    stub_get.with(query: { file: filename, version: current_version }).to_return(body: body)
     client = get_client
 
-    assert_equal fixture('club.xml').read, client.club.body
+    assert_equal body, client.club.body
   end
 
-  def test_club_with_id
-    stub_get.with(query: { file: 'club', version: 1.5, teamId: 242857 }).to_return(body: fixture('club_with_team_id.xml'))
+  def test_club_with_team_id
+    body = 'Club with team id'
+    team_id = 242857
+    stub_get.with(query: { file: filename, version: current_version, teamId: team_id }).to_return(body: body)
     client = get_client
 
-    assert_equal fixture('club_with_team_id.xml').read, client.club(team_id: 242857).body
+    assert_equal body, client.club(team_id: team_id).body
   end
 
   def test_club_with_wrong_version
@@ -22,5 +25,13 @@ class ClubTest < Minitest::Test
     assert_raises Hattruby::Error do
       client.club({ version: 1.0 })
     end
+  end
+
+  def current_version
+    Hattruby::Club::VERSIONS.last
+  end
+
+  def filename
+    Hattruby::Club::FILENAME
   end
 end

@@ -1,16 +1,14 @@
 module Hattruby::Achievements
-  VERSIONS = [ 1.0, 1.1 ].freeze
+  VERSIONS = (1.0..1.1).step(0.1).to_a.freeze
+  FILENAME = 'achievements'.freeze
 
-  def achievements(args = {})
-    version = args.fetch(:version, 1.1)
-    user_id = args[:user_id]
-
+  def achievements(version: VERSIONS.last, user_id: nil)
     unless VERSIONS.include?(version)
       raise Hattruby::Error, 'Incorrect version specified'
     end
 
     request_params = {
-      file: 'achievements',
+      file: FILENAME,
       version: version,
     }
     request_params[:userID] = user_id if user_id

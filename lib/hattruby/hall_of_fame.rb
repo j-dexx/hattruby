@@ -1,9 +1,8 @@
-module Hattruby::Club
-  VERSIONS = (1.1..1.5).step(0.1).to_a.freeze
-  FILENAME = 'club'.freeze
+module Hattruby::HallOfFame
+  VERSIONS = (1.0..1.1).step(0.1).to_a.freeze
+  FILENAME = 'hofplayers'.freeze
 
-  def club(version: VERSIONS.last, team_id: nil)
-
+  def hall_of_fame(version: VERSIONS.last, team_id: nil)
     unless VERSIONS.include?(version)
       raise Hattruby::Error, 'Incorrect version specified'
     end
@@ -12,7 +11,7 @@ module Hattruby::Club
       file: FILENAME,
       version: version
     }
-    request_params[:teamId] = team_id if team_id
+    request_params[:teamID] = team_id if team_id
 
     perform_request(request_params)
   end

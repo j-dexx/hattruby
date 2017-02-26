@@ -2,6 +2,8 @@ require 'hattruby/achievements'
 require 'hattruby/club'
 require 'hattruby/economy'
 require 'hattruby/fans'
+require 'hattruby/hall_of_fame'
+require 'hattruby/team_details'
 
 module Hattruby
   module API
@@ -9,10 +11,8 @@ module Hattruby
     include Hattruby::Club
     include Hattruby::Economy
     include Hattruby::Fans
-
-    def team_details
-      perform_request({ file: 'teamdetails', version: 3.2 })
-    end
+    include Hattruby::HallOfFame
+    include Hattruby::TeamDetails
 
     private
 
