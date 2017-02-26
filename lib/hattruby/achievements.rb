@@ -1,5 +1,6 @@
 module Hattruby::Achievements
   VERSIONS = [ 1.0, 1.1 ].freeze
+
   def achievements(args = {})
     version = args.fetch(:version, 1.1)
     user_id = args[:user_id]

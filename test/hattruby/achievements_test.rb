@@ -1,6 +1,6 @@
 require_relative '../test_helper'
 
-class AchievmentsTest < Minitest::Test
+class AchievementsTest < Minitest::Test
   def test_achievements
     stub_get.with(query: { file: 'achievements', version: 1.1 }).to_return(body: fixture('achievements.xml'))
     client = get_client
