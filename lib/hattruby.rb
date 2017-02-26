@@ -1,5 +1,6 @@
 require "hattruby/version"
 require 'hattruby/client'
+require 'hattruby/error'
 
 begin
   require 'pry'

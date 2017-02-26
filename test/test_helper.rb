@@ -21,3 +21,12 @@ end
 def fixture(file)
   File.new(fixture_path + '/' + file)
 end
+
+def get_client
+  Hattruby::Client.new(
+    consumer_key: ENV['HATTRICK_KEY'],
+    consumer_secret: ENV['HATTRICK_SECRET'],
+    token: ENV['TOKEN'],
+    token_secret: ENV['TOKEN_SECRET']
+  )
+end

@@ -1,5 +1,6 @@
 require 'hattruby/request'
 require 'hattruby/api'
+require 'hattruby/error'
 
 module Hattruby
   class Client
@@ -7,7 +8,7 @@ module Hattruby
     attr_reader :consumer_key, :consumer_secret,
       :token, :token_secret
 
-    def initialize(consumer_key:, consumer_secret:, 
+    def initialize(consumer_key:, consumer_secret:,
                    token:, token_secret:)
       @consumer_key = consumer_key
       @consumer_secret = consumer_secret

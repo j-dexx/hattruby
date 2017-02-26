@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HattrickData>
+  <FileName>achievements.xml</FileName>
+  <Version>1.1</Version>
+  <UserID>8981311</UserID>
+  <FetchedDate>2017-02-26 16:35:54</FetchedDate>
+  <UserID>8981311</UserID>
+  <MaxPoints>983</MaxPoints>
+  <AchievementList>
+    <Achievement>
+      <AchievementTypeID>1</AchievementTypeID>
+      <AchievementText>Team was ranked among the top 46</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2015-09-14 05:11:52</EventDate>
+      <Points>50</Points>
+      <MultiLevel>True</MultiLevel>
+      <Rank>2</Rank>
+      <NumberOfEvents>20687</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>2</AchievementTypeID>
+      <AchievementText>Bought a &lt;a href="/Club/Players/Player.aspx?playerId=235820096&amp;TeamId=0"&gt;player&lt;/a&gt;</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2009-02-24 13:16:05</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>244037</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>3</AchievementTypeID>
+      <AchievementText>Sold a &lt;a href="/Club/Players/Player.aspx?playerId=233018321&amp;TeamId=0"&gt;player&lt;/a&gt;</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2009-03-27 14:27:12</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>210250</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>8</AchievementTypeID>
+      <AchievementText>Player's skill increased</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2009-03-05 21:01:29</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>254676</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>9</AchievementTypeID>
+      <AchievementText>Scouted a new &lt;a href="/Club/Players/Player.aspx?playerId=236313525&amp;TeamId=0"&gt;player&lt;/a&gt;</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2009-02-19 14:15:00</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>224586</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>10</AchievementTypeID>
+      <AchievementText>Sold a rebought youth &lt;a href="/Club/Players/Player.aspx?playerId=312710670&amp;TeamId=0"&gt;player&lt;/a&gt;</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2012-04-19 21:46:16</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>41800</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>11</AchievementTypeID>
+      <AchievementText>Rebought a former youth &lt;a href="/Club/Players/Player.aspx?playerId=312710670&amp;TeamId=0"&gt;player&lt;/a&gt;</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2011-10-25 20:11:22</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>38470</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>21</AchievementTypeID>
+      <AchievementText>Advanced from round 7 in the Cup</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2014-09-23 23:00:00</EventDate>
+      <Points>20</Points>
+      <MultiLevel>True</MultiLevel>
+      <Rank>4</Rank>
+      <NumberOfEvents>43367</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>23</AchievementTypeID>
+      <AchievementText>Total squad TSI exceeded 2 011 790</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2015-04-10 21:01:36</EventDate>
+      <Points>80</Points>
+      <MultiLevel>True</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>12152</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>31</AchievementTypeID>
+      <AchievementText>Cash is king</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2012-06-01 21:02:48</EventDate>
+      <Points>35</Points>
+      <MultiLevel>True</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>81908</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>32</AchievementTypeID>
+      <AchievementText>Fan club size exceeded 3 033 members</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2015-06-29 06:16:46</EventDate>
+      <Points>30</Points>
+      <MultiLevel>True</MultiLevel>
+      <Rank>2</Rank>
+      <NumberOfEvents>18200</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>33</AchievementTypeID>
+      <AchievementText>Promoted a &lt;a href="/Club/Players/Player.aspx?playerId=233018314&amp;TeamId=0"&gt;player&lt;/a&gt; to Hall Of Fame</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2010-03-29 15:28:08</EventDate>
+      <Points>15</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>57241</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>34</AchievementTypeID>
+      <AchievementText>Sold a &lt;a href="/Club/Players/Player.aspx?playerId=233018327&amp;TeamId=0"&gt;youth player&lt;/a&gt;</AchievementText>
+      <CategoryID>2</CategoryID>
+      <EventDate>2009-06-04 17:06:48</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>210710</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>6</AchievementTypeID>
+      <AchievementText>Team reached an &lt;a href="/Club/Matches/Match.aspx?matchID=537455485&amp;SourceSystem=Hattrick"&gt;average match rating&lt;/a&gt; of &lt;a href="/Help/Rules/AppDenominations.aspx?lt=skill&amp;amp;ll=12#skill" class="skill"&gt;magnificent&lt;/a&gt;</AchievementText>
+      <CategoryID>3</CategoryID>
+      <EventDate>2015-10-11 19:45:00</EventDate>
+      <Points>29</Points>
+      <MultiLevel>True</MultiLevel>
+      <Rank>7</Rank>
+      <NumberOfEvents>14363</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>7</AchievementTypeID>
+      <AchievementText>Played an international friendly &lt;a href="/Club/Matches/Match.aspx?matchID=219626307&amp;SourceSystem=Hattrick"&gt;match&lt;/a&gt;</AchievementText>
+      <CategoryID>3</CategoryID>
+      <EventDate>2009-03-05 04:45:08</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>228553</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>22</AchievementTypeID>
+      <AchievementText>Team reached at least 91,5 stars in a &lt;a href="/Club/Matches/Match.aspx?matchID=493946199&amp;SourceSystem=Hattrick"&gt;match&lt;/a&gt;</AchievementText>
+      <CategoryID>3</CategoryID>
+      <EventDate>2014-09-14 19:45:00</EventDate>
+      <Points>50</Points>
+      <MultiLevel>True</MultiLevel>
+      <Rank>5</Rank>
+      <NumberOfEvents>36696</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>25</AchievementTypeID>
+      <AchievementText>&lt;a href="/Club/Matches/Match.aspx?matchID=206373171&amp;SourceSystem=Hattrick"&gt;Home-grown lineup&lt;/a&gt;</AchievementText>
+      <CategoryID>3</CategoryID>
+      <EventDate>2009-01-27 22:45:08</EventDate>
+      <Points>25</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>170284</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>27</AchievementTypeID>
+      <AchievementText>&lt;a href="/Club/Matches/Match.aspx?matchID=378547956&amp;SourceSystem=Hattrick"&gt;Youthful lineup&lt;/a&gt;</AchievementText>
+      <CategoryID>3</CategoryID>
+      <EventDate>2012-04-24 21:00:00</EventDate>
+      <Points>35</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>17122</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>4</AchievementTypeID>
+      <AchievementText>Wrote a press announcement</AchievementText>
+      <CategoryID>4</CategoryID>
+      <EventDate>2010-03-22 19:05:17</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>85112</NumberOfEvents>
+    </Achievement>
+    <Achievement>
+      <AchievementTypeID>5</AchievementTypeID>
+      <AchievementText>Wrote a &lt;a href="/Forum/Read.aspx?t=13282252&amp;n=35&amp;mr=0&amp;v=0"&gt;forum post&lt;/a&gt;</AchievementText>
+      <CategoryID>4</CategoryID>
+      <EventDate>2009-09-14 20:45:38</EventDate>
+      <Points>10</Points>
+      <MultiLevel>False</MultiLevel>
+      <Rank>1</Rank>
+      <NumberOfEvents>151891</NumberOfEvents>
+    </Achievement>
+  </AchievementList>
+</HattrickData>
