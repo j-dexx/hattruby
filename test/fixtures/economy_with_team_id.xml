@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HattrickData>
+  <FileName>economy.xml</FileName>
+  <Version>1.3</Version>
+  <UserID>8981311</UserID>
+  <FetchedDate>2017-02-26 17:48:17</FetchedDate>
+  <Team>
+    <TeamID>242857</TeamID>
+    <TeamName>The Bare Necessities</TeamName>
+    <Cash>150000000</Cash>
+    <ExpectedCash>154337107</ExpectedCash>
+    <SponsorsPopularity Available="True">8</SponsorsPopularity>
+    <SupportersPopularity Available="True">3</SupportersPopularity>
+    <FanClubSize>2610</FanClubSize>
+    <IncomeSpectators>3773910</IncomeSpectators>
+    <IncomeSponsors>1604000</IncomeSponsors>
+    <IncomeFinancial>0</IncomeFinancial>
+    <IncomeSoldPlayers>0</IncomeSoldPlayers>
+    <IncomeSoldPlayersCommission>0</IncomeSoldPlayersCommission>
+    <IncomeTemporary>0</IncomeTemporary>
+    <IncomeSum>5377910</IncomeSum>
+    <CostsArena>329883</CostsArena>
+    <CostsPlayers>510920</CostsPlayers>
+    <CostsFinancial>0</CostsFinancial>
+    <CostsStaff>0</CostsStaff>
+    <CostsBoughtPlayers>0</CostsBoughtPlayers>
+    <CostsArenaBuilding>0</CostsArenaBuilding>
+    <CostsTemporary>0</CostsTemporary>
+    <CostsYouth>200000</CostsYouth>
+    <CostsSum>1040803</CostsSum>
+    <ExpectedWeeksTotal>4337107</ExpectedWeeksTotal>
+    <LastIncomeSpectators>0</LastIncomeSpectators>
+    <LastIncomeSponsors>1596600</LastIncomeSponsors>
+    <LastIncomeFinancial>0</LastIncomeFinancial>
+    <LastIncomeSoldPlayers>0</LastIncomeSoldPlayers>
+    <LastIncomeSoldPlayersCommission>0</LastIncomeSoldPlayersCommission>
+    <LastIncomeTemporary>0</LastIncomeTemporary>
+    <LastIncomeSum>1596600</LastIncomeSum>
+    <LastCostsArena>329883</LastCostsArena>
+    <LastCostsPlayers>510920</LastCostsPlayers>
+    <LastCostsFinancial>0</LastCostsFinancial>
+    <LastCostsStaff>0</LastCostsStaff>
+    <LastCostsBoughtPlayers>0</LastCostsBoughtPlayers>
+    <LastCostsArenaBuilding>0</LastCostsArenaBuilding>
+    <LastCostsTemporary>0</LastCostsTemporary>
+    <LastCostsYouth>200000</LastCostsYouth>
+    <LastCostsSum>1040803</LastCostsSum>
+    <LastWeeksTotal>555797</LastWeeksTotal>
+  </Team>
+</HattrickData>

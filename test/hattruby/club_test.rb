@@ -9,7 +9,7 @@ class ClubTest < Minitest::Test
   end
 
   def test_club_with_id
-    stub_get.with(query: { file: 'club', version: 1.5, teamID: 242857 }).to_return(body: fixture('club_with_team_id.xml'))
+    stub_get.with(query: { file: 'club', version: 1.5, teamId: 242857 }).to_return(body: fixture('club_with_team_id.xml'))
     client = get_client
 
     assert_equal fixture('club_with_team_id.xml').read, client.club(team_id: 242857).body

@@ -1,8 +1,8 @@
-module Hattruby::Club
-  VERSIONS = [ 1.1, 1.2, 1.3, 1.4, 1.5 ].freeze
+module Hattruby::Economy
+  VERSIONS = [ 1.1, 1.2, 1.3 ].freeze
 
-  def club(args = {})
-    version = args.fetch(:version, 1.5)
+  def economy(args = {})
+    version = args.fetch(:version, 1.3)
     team_id = args[:team_id]
 
     unless VERSIONS.include?(version)
@@ -10,8 +10,8 @@ module Hattruby::Club
     end
 
     request_params = {
-      file: 'club',
-      version: version
+      file: 'economy',
+      version: version,
     }
     request_params[:teamId] = team_id if team_id
 
