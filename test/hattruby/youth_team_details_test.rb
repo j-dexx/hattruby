@@ -23,7 +23,7 @@ class YouthTeamDetailsTest < Minitest::Test
     stub_get.with(query: { file: filename, showScouts: true, version: current_version }).to_return(body: body)
     client = get_client
 
-    assert_equal body, client.youth_team_details(show_scouts: true).body
+    assert_equal body, client.youth_team_details(scouts: true).body
   end
 
   def test_youth_team_details_with_incorrect_version
