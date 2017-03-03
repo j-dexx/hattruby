@@ -1,0 +1,18 @@
+module Hattruby::YouthAvatars
+  FILENAME = 'youthavatars'.freeze
+  VERSIONS = (1.0..1.1).step(0.1).to_a.freeze
+
+  def youth_avatars(version: VERSIONS.last, youth_team_id: nil)
+    unless VERSIONS.include?(version)
+      raise Hattruby::Error, 'Incorrect version specified'
+    end
+
+    request_params = {
+      file: FILENAME,
+      version: version
+    }
+    request_params[:youthTeamId] = youth_team_id if youth_team_id
+
+    perform_request(request_params)
+  end
+end
