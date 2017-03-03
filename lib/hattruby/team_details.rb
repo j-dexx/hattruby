@@ -9,7 +9,7 @@ module Hattruby::TeamDetails
 
     request_params = {
       file: FILENAME,
-      version: version
+      version: version,
     }
     request_params[:teamID] = team_id if team_id
 

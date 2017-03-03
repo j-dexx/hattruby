@@ -4,6 +4,7 @@ require 'hattruby/economy'
 require 'hattruby/fans'
 require 'hattruby/hall_of_fame'
 require 'hattruby/team_details'
+require 'hattruby/youth_team_details'
 
 module Hattruby
   module API
@@ -13,6 +14,7 @@ module Hattruby
     include Hattruby::Fans
     include Hattruby::HallOfFame
     include Hattruby::TeamDetails
+    include Hattruby::YouthTeamDetails
 
     private
 
