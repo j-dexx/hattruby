@@ -7,6 +7,7 @@ require 'hattruby/team_details'
 require 'hattruby/world_details'
 require 'hattruby/world_languages'
 require 'hattruby/youth_avatars'
+require 'hattruby/youth_league_details'
 require 'hattruby/youth_team_details'
 
 module Hattruby
@@ -20,6 +21,7 @@ module Hattruby
     include Hattruby::WorldDetails
     include Hattruby::WorldLanguages
     include Hattruby::YouthAvatars
+    include Hattruby::YouthLeagueDetails
     include Hattruby::YouthTeamDetails
 
     private
