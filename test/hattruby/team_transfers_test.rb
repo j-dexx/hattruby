@@ -20,7 +20,6 @@ class TeamTransfersTest < Minitest::Test
   end
 
   def test_team_transfers_with_page_less_than_zero
-    body = 'Transfers with page'
     page = -1
     # No stubbing as should never make request
     client = get_client

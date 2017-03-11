@@ -3,6 +3,7 @@ require 'hattruby/club'
 require 'hattruby/economy'
 require 'hattruby/fans'
 require 'hattruby/hall_of_fame'
+require 'hattruby/player_training'
 require 'hattruby/player_transfers'
 require 'hattruby/team_details'
 require 'hattruby/team_transfers'
@@ -20,6 +21,7 @@ module Hattruby
     include Hattruby::Economy
     include Hattruby::Fans
     include Hattruby::HallOfFame
+    include Hattruby::PlayerTraining
     include Hattruby::PlayerTransfers
     include Hattruby::TeamDetails
     include Hattruby::TeamTransfers
