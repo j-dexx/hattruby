@@ -5,6 +5,7 @@ require 'hattruby/fans'
 require 'hattruby/hall_of_fame'
 require 'hattruby/player_transfers'
 require 'hattruby/team_details'
+require 'hattruby/team_transfers'
 require 'hattruby/translations'
 require 'hattruby/world_details'
 require 'hattruby/world_languages'
@@ -21,6 +22,7 @@ module Hattruby
     include Hattruby::HallOfFame
     include Hattruby::PlayerTransfers
     include Hattruby::TeamDetails
+    include Hattruby::TeamTransfers
     include Hattruby::Translations
     include Hattruby::WorldDetails
     include Hattruby::WorldLanguages
