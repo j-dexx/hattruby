@@ -30,10 +30,10 @@ class TournamentLeagueTablesTest < Minitest::Test
   end
 
   def filename
-    Hattruby::TournamentLeagueTables::FILENAME
+    Hattruby::Tournaments::LEAGUE_TABLES_FILENAME
   end
 
   def current_version
-    Hattruby::TournamentLeagueTables::VERSIONS.last
+    Hattruby::Tournaments::LEAGUE_TABLES_VERSIONS.last
   end
 end

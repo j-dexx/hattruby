@@ -30,10 +30,10 @@ class TournamentFixturesTest < Minitest::Test
   end
 
   def filename
-    Hattruby::TournamentFixtures::FILENAME
+    Hattruby::Tournaments::FIXTURES_FILENAME
   end
 
   def current_version
-    Hattruby::TournamentFixtures::VERSIONS.last
+    Hattruby::Tournaments::FIXTURES_VERSIONS.last
   end
 end
