@@ -8,6 +8,7 @@ require 'hattruby/player_transfers'
 require 'hattruby/team_details'
 require 'hattruby/team_tournaments'
 require 'hattruby/team_transfers'
+require 'hattruby/tournament_fixtures'
 require 'hattruby/tournament_league_tables'
 require 'hattruby/translations'
 require 'hattruby/world_details'
@@ -28,6 +29,7 @@ module Hattruby
     include Hattruby::TeamDetails
     include Hattruby::TeamTournaments
     include Hattruby::TeamTransfers
+    include Hattruby::TournamentFixtures
     include Hattruby::TournamentLeagueTables
     include Hattruby::Translations
     include Hattruby::WorldDetails
