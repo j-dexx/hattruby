@@ -4,6 +4,7 @@ require 'hattruby/economy'
 require 'hattruby/fans'
 require 'hattruby/hall_of_fame'
 require 'hattruby/team_details'
+require 'hattruby/world_details'
 require 'hattruby/world_languages'
 require 'hattruby/youth_avatars'
 require 'hattruby/youth_team_details'
@@ -16,6 +17,7 @@ module Hattruby
     include Hattruby::Fans
     include Hattruby::HallOfFame
     include Hattruby::TeamDetails
+    include Hattruby::WorldDetails
     include Hattruby::WorldLanguages
     include Hattruby::YouthAvatars
     include Hattruby::YouthTeamDetails
